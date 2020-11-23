@@ -1,0 +1,134 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(7, 7, 83);
+    color: white;
+    padding: 10px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.title2{
+    color: #CCC;
+    font-size: 15px;
+}
+img{
+    width: 70px;
+    height: 65px;
+    padding-left: 20px;
+}
+.navmenu img{
+    width: 60px;
+    height: 55px;
+    cursor: pointer;
+    padding-right: 20px;
+}
+#close{
+    width: 40px;
+    height: 35px;
+    padding-right: 20px;
+}
+#close{
+    display: none;
+}
+#content1{
+    margin: 0px;
+    background-color: rgba(0, 0, 255, 0.397);;
+    color: white;
+    text-align: center;
+    padding: 20px 40px;
+    height: 530px;
+    display: block;
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px 20px;
+    color: black;
+}
+.notes{
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+#content2{
+    display: none;
+    justify-content: space-between;
+    height: 550px;
+}
+.slide1{
+    background-color: black;
+    color: white;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+.slide2{
+    display: flex;
+    background-color: rgba(0, 0, 255, 0.397);
+    width: 50%;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+.pages{
+    color: black;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.pages:hover{
+    color: blue;
+}
+.slide3{
+    background-color: black;
+    color: white;
+    width: 25%;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.image-box{
+    margin: 0 auto;
+    width: 170px;
+    height: 170px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border: 5px solid #CCC;
+}
+.passport{
+    width: 180px;
+    height: 180px;
+}
+.text1{
+    font-size: 25px;
+}
+.text2{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.582);
+}
+.text3{
+    font-size: 15px;
+}
